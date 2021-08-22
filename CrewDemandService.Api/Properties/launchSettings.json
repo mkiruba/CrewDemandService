@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CrewDemandService.Api": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\KiruMarimuthu\\RiderProjects\\CrewDemandService\\CrewDemandService.Api\\bin\\Debug\\net5.0\\CrewDemandService.Api.exe",
+      "commandLineArgs": "host start --verbose"
+    }
+  }
+}
