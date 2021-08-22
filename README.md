@@ -34,5 +34,9 @@ During the Startup, data from [pilot.json](/CrewDemandService/Infrastructure/Dat
 
 ![flights sequence diagram](Architecture/PilotsControllerSequence.png)
 
-## 
+## Followed Best Practices
+
+- Unit Tests for Controllers, CommandHandlers and QueryHandlers
+- Dependency Injection
+- Followed some DDD principles
 
