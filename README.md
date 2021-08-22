@@ -38,7 +38,7 @@ During the Startup, data from [pilot.json](/CrewDemandService/Infrastructure/Dat
 
 - Unit Tests for Controllers, CommandHandlers and QueryHandlers
 - Dependency Injection
-- Followed some DDD principles
+- Followed some DDD principles (Just for demonstration purpose)
 - Valid Http status code returned from Api
 - Documentation in Readme.md
 
