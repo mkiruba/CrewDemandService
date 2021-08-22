@@ -3,3 +3,10 @@
 ################################################################################
 
 /.idea/.idea.CrewDemandService/.idea
+/.vs/CrewDemandService
+/CrewDemandService/bin/Debug/net5.0
+/CrewDemandService/obj/Debug/net5.0
+/CrewDemandService/obj
+/CrewDemandService.Test/bin/Debug/net5.0
+/CrewDemandService.Test/obj/Debug/net5.0
+/CrewDemandService.Test/obj
