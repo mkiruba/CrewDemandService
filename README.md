@@ -20,14 +20,19 @@ Use Visual Studio 2019 or Rider IDE and clone the master branch of this reposito
 
 ## Database
 
-During the Startup, data from [pilot.json](https://github.com/mkiruba/CrewDemandService/blob/master/CrewDemandService/Infrastructure/Data/Pilot.json) is inserted in to in-memory database.
+During the Startup, data from [pilot.json](/CrewDemandService/Infrastructure/Data/Pilot.json) is inserted in to in-memory database.
 
-![db diagram](image.jpg)
+![db diagram](Architecture/DbDiagram.png)
 
 ## Api
 
-Followed CQRS to segregate Command and Queries.
+- Followed CQRS to segregate Command and Queries.
+- Api's return necessary Status codes.
+- Used [Weighted Interval Scheduling algorithm](/CrewDemandService/Api/QueryHandler/PilotQueryHandler.cs#:~:text=private%20IEnumerable%3CPilot%3E%20ApplyScheduleWaitingTime(IEnumerable%3CPilot%3E%20pilots)) to add weights based on their last return from trip.
 
-![pilots sequence diagram](image.jpg)
+![pilots sequence diagram](Architecture/FlightsControllerSequence.png)
 
-![flights sequence diagram](image.jpg)
+![flights sequence diagram](Architecture/PilotsControllerSequence.png)
+
+## 
+
